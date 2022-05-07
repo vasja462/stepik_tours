@@ -20,11 +20,11 @@
              {% for key, value in  departures.items %}
              {% if forloop.first %}
              <li class="nav-item active">
-            <a class="nav-link" href="/departure/{{key}}">{{value}}</a>
+            <a class="nav-link" href="/departure/{{key}}">{{ value }}</a>
           </li>
              {% else %}
              <li class="nav-item">
-            <a class="nav-link" href="/departure/{{key}}">{{value}}</a>
+            <a class="nav-link" href="/departure/{{key}}">{{ value }}</a>
           </li>
              {% endif %}
              {% endfor %}
